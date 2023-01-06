@@ -206,3 +206,9 @@ main{
 input{
     height: 64px;
 }
+.contact-description{
+    margin-bottom: 30px;
+}
+.image img {
+    margin-left: 24px;
+}
