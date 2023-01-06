@@ -25,6 +25,14 @@ nav ul {
     align-items: center;
 }
 /* header buttom */
+.header{
+    /* background: bottom right, no-repeat, #FFF8F3, url(/images/header_bg.png), url(/images/developer.png) ; */
+    background-image:  url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-color:#FFF8F3 ;
+    background-position: bottom right, left;
+    
+}
 .btn-primary{
     height: 64px;
     border-radius: 5px;
@@ -66,4 +74,28 @@ nav ul {
     border: 1px solid #FD6E0A;
     padding: 18px 36px;
     margin-left: 30px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about-section */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-description{
+    margin-bottom: 30px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
 }
